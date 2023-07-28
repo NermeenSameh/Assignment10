@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: #24353f;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+.LoginDiv {
+    box-shadow: -5px 2px 54px -9px rgba(0, 0, 0, 1);
+}
+.form-control {
+    font-size: 1rem;
+    line-height: 1.5;
+    background-color: transparent;
+    border: 1px solid #ced4da;
+    border-radius: .25rem;
+  
+}
+.form-control::placeholder{
+    --bs-text-opacity: 1;
+    color: rgba(255,255,255,.5)!important;
+}
+.form-control:focus{
+    background-color: transparent;
+}
+h1
+{
+    color: #17a2b8;
+    font-size: 2.5rem;
+    margin-bottom: .5rem;
+    font-family: inherit;
+    font-weight: 500;
+    line-height: 1.2;
+}
+a{
+    text-decoration: none;
+    transition: 0.5s;
+}
+.w-65{
+    width: 65%;
+}
+
+#home {
+    height: 75vh;
+}
+a:hover{
+    text-decoration: underline; 
+}
